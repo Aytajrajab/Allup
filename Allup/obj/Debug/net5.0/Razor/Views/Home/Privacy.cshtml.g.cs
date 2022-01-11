@@ -21,13 +21,20 @@ using Allup;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\aytac\OneDrive\Documents\Projects\Allup\Allup\Views\_ViewImports.cshtml"
-using Allup.Models;
+using Allup.Models.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\aytac\OneDrive\Documents\Projects\Allup\Allup\Views\_ViewImports.cshtml"
+using Allup.Models.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e806077e4d7efbc574b62fa2dcd354eb5f0387a8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"92fb2ecb4a27b2869b09541b51e0475e59db5fc5", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -22,7 +22,7 @@ namespace Allup.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var categories = await _context.Categories.ToListAsync();
+            var categories = await _context.Categories.Where(c=>!c.IsDeleted && c.IsMain).ToListAsync();
             var homeVM = new HomeViewModel
             {
                 Categories = categories,
